@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Desi Dhaba</title>
+    <title>UMS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link href="js/bootstrap.min.js">
-    <link href="js/bootstrap.js">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link href="assets/js/bootstrap.min.js">
+    <link href="assets/js/bootstrap.js">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,7 +20,6 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
     <link href="ihover/src/ihover.css" rel="stylesheet">
-
     <style>
     /* nav bar header style*/
     .navbar-inverse{
@@ -93,6 +92,21 @@
     .carousel-inner{
     height: 540px;
     }
+    .ih-item.square{
+    border:0;
+    width: 415px;
+    height: 330px;
+    }
+    .content1,.content2{
+    width: 280px;
+    height: 330px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 5px 0 rgba(0,0,0,0.16);
+    display: inline-block;
+    margin-right: 45px;
+    }
+    .content1:hover,.content2:hover{
+    box-shadow: 0 2px 25px 0 rgba(0,0,0,0.16), 0 2px 34px 0 rgba(0,0,0,0.16);
+    }
     </style>
   </head>
   <body>
@@ -103,14 +117,14 @@
             <a class="navbar-brand" href="#">Site Name</a>
           </div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#active">ABOUT US</a></li>
-            <li class="about"><a href="#about">COURSES</a></li>
+            <li class="active"><a href="#about">ABOUT US</a></li>
+            <li class="about"><a href="#courses">COURSES</a></li>
             <li class="online"><a href="#order">FACULTY</a></li>
             <li class="cart"><a href="#cart">STUDENT</a></li>
             <li class="help"><a href="#help">TEACHER</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
+            <li><a href="signup.html"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
             <li><a href="#"><span id="main" class="glyphicon glyphicon-log-in"  onclick="openNav()">Login</span> </a></li>
           </ul>
         </div>
@@ -145,28 +159,55 @@
       </div>
     </div>
     <!--carousel Ends-->
-    <h1>ABOUT US</h1>
-    
-
-   
-  <div class="col-sm-6">
- 
-    <!-- colored -->
-    <div class="ih-item square colored effect9 right_to_left">
-        <div class="img"><img src="https://siliconangle.com/files/2013/10/chrome-hacked-story-300x300.jpg" alt="img"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Heading here</h3>
-            <p>Description goes here</p>
-          </div>
-        </div>
+    <h1 id="about" style="text-align: center;margin-top: 50px; margin-bottom:65px;">ABOUT US</h1>
+    <div class="container">
+      <div class="col-md-8">
+      <div class="content1">
+        write what you want
+      </div>
+      <div class="content2">
+        write what you want
+      </div>
+      <div class="line" style="display: inline-block;"></div>
+      
     </div>
-    <!-- end colored -->
- 
-  </div>
-</div>
+    <div class="col-md-4">
+      
+      <div class="row">
+        
+        
+        <!-- normal -->
+        <div class="ih-item square effect9 right_to_left">
+          <div class="img"><img src="" alt="img"></div>
+          <div class="info">
+            <div class="info-back">
+              <h3>Heading here</h3>
+              <p>image size 415*330px</p>
+            </div>
+          </div>
+          
+        </div>
         
       </div>
+    </div>
+    </div>
+
+    <h1 style="text-align: center;margin-top: 50px; margin-bottom:65px;">EVENTS</h1>
+    <div class="container">
+      <div class="row">
+      
+      <div class="col-md-4">
+        
+      </div>
+      
+      <div class="col-md-4">
+        
+      </div>
+      
+      <div class="col-md-4">
+        
+      </div>
+    </div>
     </div>
     
   </body>
